@@ -28,7 +28,6 @@ export default function Videos() {
               <p>Vídeo em Libras disponível</p>
             </div>
 
-            {/* Tópicos abordados */}
             <div className="topicos">
               <p className="topicos-titulo">Tópicos abordados:</p>
               <div className="lista-topicos">
@@ -62,7 +61,6 @@ export default function Videos() {
               <p>Vídeo em Libras disponível</p>
             </div>
 
-            {/* Tópicos abordados */}
             <div className="topics">
               <p className="topicos-titulo">Tópicos abordados:</p>
               <div className="lista-topicos">
@@ -74,7 +72,7 @@ export default function Videos() {
             </div>
 
             <button className="btn-libras">Assistir em Libras</button>
-            </div>
+          </div>
 
           {/* Card - Internet */}
           <div className="card">
@@ -96,7 +94,6 @@ export default function Videos() {
               <p>Vídeo em Libras disponível</p>
             </div>
 
-            {/* Tópicos abordados */}
             <div className="topicos">
               <p className="topicos-titulo">Tópicos abordados:</p>
               <div className="lista-topicos">
@@ -108,7 +105,7 @@ export default function Videos() {
             </div>
 
             <button className="btn-libras">Assistir em Libras</button>
-            </div>
+          </div>
 
           {/* Card - Arquivos e Pastas */}
           <div className="card">
@@ -130,7 +127,6 @@ export default function Videos() {
               <p>Vídeo em Libras disponível</p>
             </div>
 
-            {/* Tópicos abordados */}
             <div className="topicos">
               <p className="topicos-titulo">Tópicos abordados:</p>
               <div className="lista-topicos">
@@ -144,41 +140,36 @@ export default function Videos() {
             <button className="btn-libras">Assistir em Libras</button>
           </div>
         </div>
+
+        {/* ------------------ EXTRA SEÇÃO DENTRO DA <div className="pag"> ------------------ */}
+        <div className="extra-secao">
+          <h2 className="extra-titulo">Recursos Adicionais</h2>
+
+          <div className="extra-container">
+
+            <div className="extra-item">
+              <div className="extra-icon">📚</div>
+              <h3>Glossário em Libras</h3>
+              <p>Dicionário de termos técnicos com sinais em Libras</p>
+            </div>
+
+            <div className="extra-item">
+              <div className="extra-icon">🎯</div>
+              <h3>Exercícios Práticos</h3>
+              <p>Atividades para fixar o aprendizado</p>
+            </div>
+
+            <div className="extra-item">
+              <div className="extra-icon">👥</div>
+              <h3>Comunidade</h3>
+              <p>Fórum para tirar dúvidas e compartilhar experiências</p>
+            </div>
+
+          </div>
+        </div>
+        {/* --------------------------------------------------------------------------- */}
+
       </div>
-
-      <div className="extra-secao">
-  <h2 className="extra-titulo">Recursos Adicionais</h2>
-
-  <div className="extra-container">
-    {/* Glossário */}
-    <div className="extra-item">
-      <div className="extra-icon">
-        📚
-      </div>
-      <h3>Glossário em Libras</h3>
-      <p>Dicionário de termos técnicos com sinais em Libras</p>
-    </div>
-
-    {/* Exercícios */}
-    <div className="extra-item">
-      <div className="extra-icon">
-        🎯
-      </div>
-      <h3>Exercícios Práticos</h3>
-      <p>Atividades para fixar o aprendizado</p>
-    </div>
-
-    {/* Comunidade */}
-    <div className="extra-item">
-      <div className="extra-icon">
-        👥
-      </div>
-      <h3>Comunidade</h3>
-      <p>Fórum para tirar dúvidas e compartilhar experiências</p>
-    </div>
-  </div>
-</div>
-
     </>
   );
 }
